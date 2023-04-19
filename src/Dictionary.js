@@ -4,7 +4,7 @@ const Dictionary = () => {
     <>
       <div className="dictionary">
         <form>
-          <input type="search" />
+          <input type="search" autoFocus={true} />
         </form>
       </div>
     </>
