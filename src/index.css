@@ -5,3 +5,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background: rgba(152, 44, 44, 0.654);
 }
+
+h1 {
+  margin-bottom: 2rem;
+}
