@@ -14,6 +14,7 @@ const Dictionary = () => {
     alert(`Searching... ${keyword}`);
 
     let apiUrl = "  https://api.dictionaryapi.dev/api/v2/entries/en/sunset";
+    axios.get(apiUrl).then(handleResponse);
   };
   return (
     <>
