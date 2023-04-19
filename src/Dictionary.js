@@ -1,4 +1,8 @@
 const Dictionary = () => {
-  return <div>Dictionary</div>;
+  return (
+    <>
+      <h2>Hello from dictionary</h2>
+    </>
+  );
 };
 export default Dictionary;
