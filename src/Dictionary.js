@@ -10,15 +10,15 @@ const Dictionary = () => {
   };
 
   const handleResponse = (response) => {
-    console.log(response);
+    console.log(response.data[0]);
   };
 
   const search = (event) => {
     event.preventDefault();
-    alert(`Searching... ${keyword}`);
 
-    let apiUrl = "  https://api.dictionaryapi.dev/api/v2/entries/en/sunset";
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
     axios.get(apiUrl).then(handleResponse);
+    console.log(apiUrl);
   };
   return (
     <>
