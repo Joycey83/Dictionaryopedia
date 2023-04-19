@@ -1,3 +1,4 @@
+import "./Dictionary.css";
 const Dictionary = () => {
   return (
     <>
