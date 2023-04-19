@@ -1,7 +1,9 @@
 const Dictionary = () => {
   return (
     <>
-      <h2>Hello from dictionary</h2>
+      <div className="dictionary">
+        <h2>Hello from dictionary</h2>
+      </div>
     </>
   );
 };
