@@ -9,6 +9,10 @@ const Dictionary = () => {
     setKeyword(event.target.value);
   };
 
+  const handleResponse = (response) => {
+    console.log(response);
+  };
+
   const search = (event) => {
     event.preventDefault();
     alert(`Searching... ${keyword}`);
