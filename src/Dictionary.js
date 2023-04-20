@@ -5,14 +5,14 @@ import "./Dictionary.css";
 
 const Dictionary = () => {
   const [keyword, setKeyword] = useState("");
-  const [results, setResults] = useState({});
+  const [results, setResults] = useState(null);
 
   const inputHandle = (event) => {
     setKeyword(event.target.value);
   };
 
   const handleResponse = (response) => {
-    console.log(response.data[0]);
+    // console.log(response.data[0]);
     setResults(response.data[0]);
   };
 
