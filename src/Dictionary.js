@@ -5,7 +5,7 @@ import "./Dictionary.css";
 
 const Dictionary = () => {
   const [keyword, setKeyword] = useState("");
-  const [results, setResults] = useState(null);
+  const [results, setResults] = useState({});
 
   const inputHandle = (event) => {
     setKeyword(event.target.value);
@@ -13,6 +13,7 @@ const Dictionary = () => {
 
   const handleResponse = (response) => {
     console.log(response.data[0]);
+    setResults(response.data[0]);
   };
 
   const search = (event) => {
@@ -28,7 +29,7 @@ const Dictionary = () => {
         <form onSubmit={search}>
           <input type="search" autoFocus={true} onChange={inputHandle} />
         </form>
-        <Results />
+        <Results definition={results} />
       </div>
     </>
   );

@@ -1,4 +1,5 @@
-const Results = () => {
+const Results = (props) => {
+  console.log(props.definition);
   return (
     <>
       <div className="results">
