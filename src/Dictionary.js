@@ -29,7 +29,7 @@ const Dictionary = () => {
         <form onSubmit={search}>
           <input type="search" autoFocus={true} onChange={inputHandle} />
         </form>
-        <Results definition={results} />
+        <Results results={results} />
       </div>
     </>
   );
