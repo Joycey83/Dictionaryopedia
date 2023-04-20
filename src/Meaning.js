@@ -2,7 +2,18 @@ const Meaning = (props) => {
   console.log(props.meaning);
   return (
     <>
-      <h2>Hello from meaning</h2>
+      <div className="meaning">
+        <h4>{props.meaning.partOfSpeech}</h4>
+        {props.meaning.definitions.map((definition, index) => {
+          return (
+            <div key={index}>
+              <p>{definition.definition}</p>
+              <br />
+              <em>{definition.example}</em>
+            </div>
+          );
+        })}
+      </div>
     </>
   );
 };
