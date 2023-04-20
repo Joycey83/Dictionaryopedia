@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2.5rem;
+  border: 10px solid orange;
+}
+
 .app-footer {
   font-size: 0.95rem;
   margin: 2rem 0;
