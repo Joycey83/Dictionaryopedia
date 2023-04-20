@@ -5,6 +5,7 @@ import "./Dictionary.css";
 
 const Dictionary = () => {
   const [keyword, setKeyword] = useState("");
+  const [results, setResults] = useState(null);
 
   const inputHandle = (event) => {
     setKeyword(event.target.value);
