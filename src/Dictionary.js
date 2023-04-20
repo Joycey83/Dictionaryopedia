@@ -11,7 +11,6 @@ const Dictionary = () => {
 
   const handleResponse = (response) => {
     console.log(response.data[0]);
-    console.log(response.data[0].meanings[0].definitions[0]);
   };
 
   const search = (event) => {
