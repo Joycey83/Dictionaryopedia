@@ -16,8 +16,8 @@ const Dictionary = () => {
     setResults(response.data[0]);
   };
 
-  const handlePexelsResponse = (response) => {
-    console.log(response);
+  const showPhotos = (response) => {
+    console.log(response.data);
   };
 
   const search = (event) => {
@@ -26,11 +26,9 @@ const Dictionary = () => {
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
     axios.get(apiUrl).then(handleDictionaryResponse);
 
-    let pexelsApiKey =
-      "3mKvq5bRmQ0bHmalLRaCyQS46sygZN7efHK9CXLEFFK6NL4IDi8iknrg";
-
-    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=1`;
-    axios.get(pexelsApiUrl).then(handlePexelsResponse);
+    let photoApiKey = "a3a5bbeff1t6546488o90285fa5b0853";
+    let photoApiUrl = `https://api.shecodes.io/images/v1/search?query=${keyword}&key=${photoApiKey}`;
+    axios.get(photoApiUrl).then(showPhotos);
   };
   return (
     <>
