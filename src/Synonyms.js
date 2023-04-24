@@ -1,8 +1,2 @@
-const Synonyms = () => {
-  return (
-    <>
-      <p>Hello I am Synonyms</p>
-    </>
-  );
-};
+const Synonyms = (props) => {};
 export default Synonyms;
