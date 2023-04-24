@@ -26,9 +26,12 @@ const Dictionary = () => {
   return (
     <>
       <div className="dictionary">
-        <form onSubmit={search}>
-          <input type="search" autoFocus={true} onChange={inputHandle} />
-        </form>
+        <section>
+          <form onSubmit={search}>
+            <input type="search" autoFocus={true} onChange={inputHandle} />
+          </form>
+        </section>
+
         <Results results={results} />
       </div>
     </>
