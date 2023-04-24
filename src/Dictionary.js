@@ -11,7 +11,7 @@ const Dictionary = () => {
     setKeyword(event.target.value);
   };
 
-  const handleResponse = (response) => {
+  const handleDictionaryResponse = (response) => {
     // console.log(response.data[0]);
     setResults(response.data[0]);
   };
@@ -20,7 +20,7 @@ const Dictionary = () => {
     event.preventDefault();
 
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
-    axios.get(apiUrl).then(handleResponse);
+    axios.get(apiUrl).then(handleDictionaryResponse);
 
     let pexelsApiKey =
       "3mKvq5bRmQ0bHmalLRaCyQS46sygZN7efHK9CXLEFFK6NL4IDi8iknrg";
