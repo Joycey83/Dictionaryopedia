@@ -16,6 +16,10 @@ const Dictionary = () => {
     setResults(response.data[0]);
   };
 
+  const handlePexelsResponse = (response) => {
+    console.log(response);
+  };
+
   const search = (event) => {
     event.preventDefault();
 
