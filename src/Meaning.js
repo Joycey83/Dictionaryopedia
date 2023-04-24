@@ -2,7 +2,6 @@ import React from "react";
 import Synonyms from "./Synonyms";
 
 const Meaning = (props) => {
-  console.log(props.meaning);
   return (
     <>
       <div className="meaning">
