@@ -9,8 +9,8 @@ const Meaning = (props) => {
             <div key={index}>
               <p>{definition.definition}</p>
               <br />
+              <strong>Example:</strong>
               <em>{definition.example}</em>
-              {definition.synonyms}
             </div>
           );
         })}
