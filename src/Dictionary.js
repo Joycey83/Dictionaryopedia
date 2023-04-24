@@ -21,7 +21,12 @@ const Dictionary = () => {
 
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
     axios.get(apiUrl).then(handleResponse);
-    console.log(apiUrl);
+
+    let pexelsApiKey =
+      "3mKvq5bRmQ0bHmalLRaCyQS46sygZN7efHK9CXLEFFK6NL4IDi8iknrg";
+
+    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=1`;
+    axios.get(pexelsApiUrl).then(handlePexelsResponse);
   };
   return (
     <>
