@@ -1,11 +1,13 @@
 import { useState } from "react";
 import axios from "axios";
 import Results from "./Results";
+import Photos from "./Photos";
 import "./Dictionary.css";
 
 const Dictionary = () => {
   const [keyword, setKeyword] = useState("");
   const [results, setResults] = useState(null);
+  const [photos, setPhotos] = useState(null);
 
   const inputHandle = (event) => {
     setKeyword(event.target.value);
@@ -18,6 +20,7 @@ const Dictionary = () => {
 
   const showPhotos = (response) => {
     console.log(response.data);
+    setPhotos(response.data.photos);
   };
 
   const search = (event) => {
@@ -40,6 +43,7 @@ const Dictionary = () => {
         </section>
 
         <Results results={results} />
+        <Photos photos={photos} />
       </div>
     </>
   );
