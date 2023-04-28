@@ -1,5 +1,6 @@
 .meaning {
   background-color: rgb(219, 171, 83);
+  border: 2px solid orangered;
   padding: 2rem;
 }
 
