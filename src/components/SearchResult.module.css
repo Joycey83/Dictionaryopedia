@@ -1,0 +1,16 @@
+.results--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5rem;
+  max-width: 400px;
+  margin: 2rem 2rem;
+  background-color: aqua;
+}
+
+.definition--section {
+  border-radius: 8px;
+  background: blueviolet;
+  margin: 3rem;
+  padding: 30px;
+}
