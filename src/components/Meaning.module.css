@@ -1,5 +1,6 @@
 .meaning {
   background-color: #ffdead;
+  border-radius: 25px;
   padding: 2rem;
   transition: all 200ms ease-in-out;
 }
