@@ -12,12 +12,12 @@ const Meaning = (props) => {
           </h4>
           {props.meaning.definitions.map((definition, index) => {
             return (
-              <div key={index}>
+              <p key={index}>
                 {definition.definition}
                 <br />
 
                 <em>{definition.example}</em>
-              </div>
+              </p>
             );
           })}
 
