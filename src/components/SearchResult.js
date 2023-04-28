@@ -7,7 +7,9 @@ const SearchResult = (props) => {
     return (
       <div className={styles["search--research"]}>
         <section className={styles["results--container"]}>
-          <h1>{props.definition.word}</h1>
+          <h1 className={styles["definition--word"]}>
+            {props.definition.word}
+          </h1>
 
           {props.definition.phonetics.map((phonetic, index) => {
             return (
