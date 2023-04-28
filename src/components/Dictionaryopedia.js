@@ -1,3 +1,6 @@
+import { useState } from "react";
+import axios from "axios";
+
 const Dictionaryopedia = () => {
   const [keyword, setKeyword] = useState("");
   const [definition, setDefinition] = useState(null);
