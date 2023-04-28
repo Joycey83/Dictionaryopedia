@@ -1,8 +1,10 @@
 .meaning {
-  background-color: #ffcc99;
+  background-color: #ffdead;
   padding: 2rem;
+  transition: all 200ms ease-in-out;
 }
 
 .meaning:hover {
   background-color: #ffb347;
+  cursor: pointer;
 }
