@@ -1,0 +1,8 @@
+.meaning {
+  background-color: rgb(219, 171, 83);
+  padding: 2rem;
+}
+
+.meaning:hover {
+  background-color: rgb(234, 213, 175);
+}
