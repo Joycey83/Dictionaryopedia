@@ -1,11 +1,16 @@
-import ReactAudioPlayer from "react-audio-player";
 const Phonetic = (props) => {
   return (
-    <div className="Phonetic">
-      <h2 className="phonetic-text"> {props.phonetic.text}</h2>
-      <div className="audio-player">
-        <ReactAudioPlayer src={props.phonetic.audio} autoPlay controls />{" "}
-      </div>
+    <div className="phonetic">
+      <a
+        href={props.phonetic.audio}
+        rel="noopener"
+        target="_blank"
+        className="images"
+      >
+        Listen
+      </a>
+      <br />
+      {props.phonetic.text}
     </div>
   );
 };

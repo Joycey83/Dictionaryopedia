@@ -13,3 +13,7 @@ h1 {
 p {
   font-size: 1rem;
 }
+
+.images {
+  background-image: url("./images/sound-image.jpg");
+}
