@@ -1,5 +1,8 @@
 import { useState } from "react";
 import axios from "axios";
+import styles from "../components/Dictionaryopedia.module.css";
+import SearchResult from "./SearchResult";
+import Photos from "./Photos";
 
 const Dictionaryopedia = () => {
   const [keyword, setKeyword] = useState("");
