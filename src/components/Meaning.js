@@ -12,7 +12,7 @@ const Meaning = (props) => {
           </h4>
           {props.meaning.definitions.map((definition, index) => {
             return (
-              <p key={index}>
+              <p key={index} className={styles["paragraph--definition"]}>
                 {definition.definition}
                 <br />
 
