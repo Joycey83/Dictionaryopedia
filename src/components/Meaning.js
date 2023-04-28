@@ -15,8 +15,9 @@ const Meaning = (props) => {
               <p key={index} className={styles["paragraph--definition"]}>
                 {definition.definition}
                 <br />
-
-                <em>{definition.example}</em>
+                <em className={styles["italic--definition"]}>
+                  {definition.example}
+                </em>
               </p>
             );
           })}

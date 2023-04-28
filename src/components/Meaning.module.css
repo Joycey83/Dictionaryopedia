@@ -13,7 +13,12 @@
 .paragraph--definition {
   font-family: "Rubik", sans-serif;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  padding: 15px 0;
   line-height: 1.5;
   letter-spacing: 2px;
+}
+
+.italic--definition {
+  font-size: 0.9rem;
 }
