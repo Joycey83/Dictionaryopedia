@@ -5,7 +5,6 @@ function App() {
   return (
     <>
       <div className="app--container">
-        <h1>Dictionaryopedia</h1>
         <Dictionaryopedia />
       </div>
     </>
