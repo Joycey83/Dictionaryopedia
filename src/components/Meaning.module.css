@@ -1,9 +1,8 @@
 .meaning {
-  background-color: rgb(219, 171, 83);
-  border: 2px solid orangered;
+  background-color: #ffcc99;
   padding: 2rem;
 }
 
 .meaning:hover {
-  background-color: rgb(234, 213, 175);
+  background-color: #ffb347;
 }
