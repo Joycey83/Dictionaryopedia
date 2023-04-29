@@ -1,6 +1,6 @@
-# dictionary-project
+# Dictionaryopedia
 
-Learning how to create a dictionary App with Shecodes using React
+Created a Dictionary App for the Shecodes React Add-on Project
 
 # Getting Started with Create React App
 
