@@ -44,7 +44,7 @@ const Dictionaryopedia = () => {
               type="search"
               placeholder="Search for a word"
               autoFocus={true}
-              className="form-control search-input"
+              className={styles["form--control"]}
               onChange={inputKeywordHandle}
             />
           </form>
