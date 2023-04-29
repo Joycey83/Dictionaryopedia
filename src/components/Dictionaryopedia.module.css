@@ -5,9 +5,9 @@
 input {
   display: block;
   width: 100%;
-  border: 1px solid orange;
+  border: 2px solid orange;
   line-height: 1.5rem;
-  padding: 0 0.25rem;
+  padding: 0.7rem 1.5rem;
 }
 
 input:focus {
