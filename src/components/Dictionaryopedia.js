@@ -29,6 +29,9 @@ const Dictionaryopedia = () => {
 
   const searchWord = (event) => {
     event.preventDefault();
+    if (keyword.trim().length === 0) {
+      setIsValid(false);
+    }
 
     // Free dictionary API
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
