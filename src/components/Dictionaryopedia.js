@@ -8,12 +8,8 @@ const Dictionaryopedia = () => {
   const [keyword, setKeyword] = useState("");
   const [definition, setDefinition] = useState(null);
   const [photos, setPhotos] = useState(null);
-  const [isValid, setIsValid] = useState(true);
 
   const inputKeywordHandle = (event) => {
-    if (event.target.value.trim().length > 0) {
-      setIsValid(true);
-    }
     setKeyword(event.target.value);
   };
 
@@ -29,9 +25,6 @@ const Dictionaryopedia = () => {
 
   const searchWord = (event) => {
     event.preventDefault();
-    if (keyword.trim().length === 0) {
-      setIsValid(false);
-    }
 
     // Free dictionary API
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
@@ -47,12 +40,11 @@ const Dictionaryopedia = () => {
       <div className={styles["dictionary--container"]}>
         <section>
           <form onSubmit={searchWord}>
-            <label>Search for a word...</label>
             <input
               type="search"
               placeholder="Search for a word"
               autoFocus={true}
-              className="form-control search-input mt-3"
+              className="form-control search-input"
               onChange={inputKeywordHandle}
             />
           </form>
