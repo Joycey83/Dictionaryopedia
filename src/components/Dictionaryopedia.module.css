@@ -3,7 +3,9 @@
 }
 
 input {
+  font-family: "Rubik", sans-serif;
   display: block;
+  font-size: 18px;
   width: 100%;
   border: 2px solid orange;
   line-height: 1.5rem;
@@ -13,5 +15,13 @@ input {
 input:focus {
   outline: none;
   background: #ffc87c;
-  border-color: #ff8c00;
+  border-color: #fb4f14;
+}
+
+::placeholder {
+  font-family: "Rubik", sans-serif;
+  color: #000;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
 }
