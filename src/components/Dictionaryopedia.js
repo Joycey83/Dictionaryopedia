@@ -11,6 +11,9 @@ const Dictionaryopedia = () => {
   const [isValid, setIsValid] = useState(true);
 
   const inputKeywordHandle = (event) => {
+    if (event.target.value.trim().length > 0) {
+      setIsValid(true);
+    }
     setKeyword(event.target.value);
   };
 
