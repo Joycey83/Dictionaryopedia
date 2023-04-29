@@ -1,4 +1,5 @@
+import styles from "../components/Footer.module.css";
 const Footer = () => {
-  return <div className="footer-container">Footer</div>;
+  return <div className={styles["footer--container"]}>Footer</div>;
 };
 export default Footer;

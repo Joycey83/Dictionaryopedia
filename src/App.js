@@ -1,6 +1,7 @@
 import styles from "./App.module.css";
 import dictionaryLogo from "./images/dictionary-book.png";
 import Dictionaryopedia from "./components/Dictionaryopedia";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           />
         </div>
         <Dictionaryopedia />
+        <Footer />
       </div>
     </>
   );

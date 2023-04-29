@@ -5,7 +5,9 @@
 }
 
 body {
+  position: relative;
   background-color: #100c08;
+  min-height: 100%;
 }
 
 ul {
