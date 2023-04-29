@@ -1,0 +1,9 @@
+.form-control.invalid input {
+  border: 2px solid red;
+  background-color: rgb(154, 82, 82);
+}
+
+.form-control.invalid label {
+  color: red;
+  font-size: 25px;
+}
