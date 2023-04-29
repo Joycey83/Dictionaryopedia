@@ -40,6 +40,9 @@ const Dictionaryopedia = () => {
       <div className={styles["dictionary--container"]}>
         <section>
           <form onSubmit={searchWord}>
+            <label className={styles.words}>
+              What word do you want to look up?
+            </label>
             <input
               type="search"
               placeholder="Search for a word"

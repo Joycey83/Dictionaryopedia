@@ -19,9 +19,17 @@ input:focus {
 }
 
 ::placeholder {
-  font-family: "Rubik", sans-serif;
+  font-family: "Bruno Ace", cursive;
   color: #000;
   text-align: center;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 400;
+}
+
+.words {
+  font-family: "Bruno Ace", cursive;
+  margin-bottom: 20px;
+  color: #fb4f14;
+  font-size: 18px;
+  letter-spacing: 2px;
 }
