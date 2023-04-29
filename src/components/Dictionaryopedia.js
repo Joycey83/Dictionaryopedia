@@ -8,6 +8,7 @@ const Dictionaryopedia = () => {
   const [keyword, setKeyword] = useState("");
   const [definition, setDefinition] = useState(null);
   const [photos, setPhotos] = useState(null);
+  const [isValid, setIsValid] = useState(true);
 
   const inputKeywordHandle = (event) => {
     setKeyword(event.target.value);
