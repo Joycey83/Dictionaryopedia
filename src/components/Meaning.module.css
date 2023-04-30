@@ -29,15 +29,23 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
 =======================================
  */
 
+@media (max-width: 390px) {
+  .meaning {
+    position: relative;
+    background: none;
+    right: 60px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 360px) {
   .meaning {
     position: relative;
-    right: 60px;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
     background: none;
-    color: aliceblue;
+    right: 60px;
+    display: grid;
+    grid-template-columns: 1fr;
   }
 
   .paragraph--definition {
@@ -46,3 +54,12 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
     padding: 8px;
   }
 }
+
+/* .meaning {
+  position: relative;
+  right: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  background: none;
+  color: aliceblue;
+} */
