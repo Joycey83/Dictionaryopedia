@@ -44,8 +44,11 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
  */
 
 @media (max-width: 384px) {
+  .footer--container {
+    background: none;
+  }
   .footer--icon {
-    font-size: 25px;
+    font-size: 22px;
     margin: 0 1rem;
   }
 
@@ -59,25 +62,15 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
     margin: 10px auto;
     padding: 5px 5px;
     border-radius: 15px;
+    background: none;
   }
 
-  .footer--icon {
-    font-size: 22px;
-    margin: 0 0.5rem;
-  }
-
-  .copyright {
-    font-size: 10px;
-  }
-}
-
-@media (max-width: 320px) {
   .footer--icon {
     font-size: 20px;
     margin: 0 0.5rem;
   }
 
   .copyright {
-    font-size: 8px;
+    font-size: 10px;
   }
 }
