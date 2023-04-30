@@ -48,6 +48,12 @@ input:focus {
   }
 }
 
+@media (max-width: 384px) {
+  ::placeholder {
+    font-size: 14px;
+  }
+}
+
 @media (max-width: 320px) {
   input {
     width: 105%;
