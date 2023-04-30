@@ -10,7 +10,11 @@ const Photo = (props) => {
               if (index < 9) {
                 return (
                   <div className="col-lg-4 col-md-4" key={index}>
-                    <a href={photo.src.original} target="_blank">
+                    <a
+                      href={photo.src.original}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <img
                         src={photo.src.landscape}
                         alt={photo.alt}
