@@ -5,7 +5,11 @@ const Footer = () => {
   return (
     <>
       <footer className={styles["footer--container"]}>
-        <ul className={styles["footer--icon"]}></ul>
+        <ul className={styles["footer--icon"]}>
+          {socialLinks.map((link) => {
+            return <h1>item</h1>;
+          })}
+        </ul>
       </footer>
     </>
   );
