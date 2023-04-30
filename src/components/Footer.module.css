@@ -49,6 +49,13 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
   }
 }
 
+@media (max-width: 414px) {
+  .footer--icon {
+    font-size: 22px;
+    margin: 0 0.5rem;
+  }
+}
+
 @media (max-width: 384px) {
   .footer--container {
     background: none;

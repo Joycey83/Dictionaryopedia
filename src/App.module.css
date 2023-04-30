@@ -19,6 +19,13 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
 =======================================
  */
 
+@media (max-width: 414px) {
+  .dictionary--logo {
+    width: 120px;
+    height: 120px;
+  }
+}
+
 @media (max-width: 384px) {
   .dictionary--logo {
     width: 120px;
