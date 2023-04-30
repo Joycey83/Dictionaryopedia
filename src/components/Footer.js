@@ -1,5 +1,9 @@
 import styles from "../components/Footer.module.css";
 const Footer = () => {
-  return <div className={styles["footer--container"]}>Footer</div>;
+  return (
+    <>
+      <ul className={styles["footer--container"]}>Footer</ul>
+    </>
+  );
 };
 export default Footer;
