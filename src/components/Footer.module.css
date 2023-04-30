@@ -10,8 +10,17 @@
   border-radius: 30px;
   text-align: center;
 }
-
+.footer--icons--container {
+  display: flex;
+  justify-content: center;
+}
 .footer--icon {
   font-size: 30px;
   color: #ff4500;
+  margin: 0 2rem;
+  transition: all 150ms ease-in-out;
+}
+
+.footer--icon:hover {
+  color: aliceblue;
 }

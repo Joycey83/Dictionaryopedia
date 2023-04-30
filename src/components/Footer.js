@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
       <footer className={styles["footer--container"]}>
-        <ul className={styles["footer--icons"]}>
+        <ul className={styles["footer--icons--container"]}>
           {socialLinks.map((link) => {
             return (
               <SocialLinks
