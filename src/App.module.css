@@ -12,3 +12,10 @@
   height: 170px;
   margin: 0 auto 30px;
 }
+
+@media (max-width: 360px) {
+  .app--container {
+    max-width: 600px;
+    margin: 2rem 1.5rem;
+  }
+}
