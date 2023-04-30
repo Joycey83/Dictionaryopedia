@@ -13,6 +13,12 @@
   margin: 0 auto 30px;
 }
 
+/* 
+=======================================
+MEDIA QUERIES: MOBILE & TABLET DEVICES
+=======================================
+ */
+
 @media (max-width: 360px) {
   .app--container {
     max-width: 600px;

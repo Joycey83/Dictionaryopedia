@@ -34,6 +34,12 @@ input:focus {
   letter-spacing: 2px;
 }
 
+/* 
+=======================================
+MEDIA QUERIES: MOBILE & TABLET DEVICES
+=======================================
+ */
+
 @media (max-width: 360px) {
   input {
     margin: 0 auto;
