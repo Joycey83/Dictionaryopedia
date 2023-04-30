@@ -30,3 +30,17 @@
   font-style: italic;
   font-size: medium;
 }
+
+/* 
+=======================================
+MEDIA QUERIES: MOBILE & TABLET DEVICES
+=======================================
+ */
+
+@media (max-width: 360px) {
+  .results--container {
+    position: relative;
+    left: -80px;
+    max-width: 400px;
+  }
+}

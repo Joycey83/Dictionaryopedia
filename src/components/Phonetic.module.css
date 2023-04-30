@@ -8,3 +8,16 @@
   text-align: center;
   font-size: 2.5rem;
 }
+
+@media (max-width: 360px) {
+  .audio--players {
+    width: 120px;
+  }
+  .audio--player {
+    margin: 0;
+  }
+
+  .phonetic--text {
+    font-size: 1rem;
+  }
+}
