@@ -1,4 +1,6 @@
 import styles from "../components/Footer.module.css";
+import SocialLinks from "./SocialLinks";
+import { socialLinks } from "../data";
 const Footer = () => {
   return (
     <>
