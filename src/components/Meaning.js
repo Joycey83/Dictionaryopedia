@@ -10,24 +10,20 @@ const Meaning = (props) => {
           <h4>
             <strong>{props.meaning.partOfSpeech}</strong>
           </h4>
-          <div className="row">
-            {props.meaning.definitions.map((definition, index) => {
-              return (
-                <p
-                  key={index}
-                  className={`col-sm-12 ${styles["paragraph--definition"]}`}
-                >
-                  {definition.definition}
-                  <br />
-                  <em className={styles["italic--definition"]}>
-                    {definition.example}
-                  </em>
-                </p>
-              );
-            })}
 
-            <Synonyms synonyms={props.meaning.synonyms} />
-          </div>
+          {props.meaning.definitions.map((definition, index) => {
+            return (
+              <p key={index} className={styles["paragraph--definition"]}>
+                {definition.definition}
+                <br />
+                <em className={styles["italic--definition"]}>
+                  {definition.example}
+                </em>
+              </p>
+            );
+          })}
+
+          <Synonyms synonyms={props.meaning.synonyms} />
         </div>
       </>
     );

@@ -31,7 +31,13 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
 
 @media (max-width: 360px) {
   .meaning {
-    padding: 3rem;
+    position: relative;
+    right: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background: none;
+    color: aliceblue;
   }
 
   .paragraph--definition {
