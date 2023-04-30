@@ -1,3 +1,4 @@
+import styles from "../components/Photos.module.css";
 const Photo = (props) => {
   console.log(props.photos);
   if (props.photos) {
@@ -13,7 +14,7 @@ const Photo = (props) => {
                       <img
                         src={photo.src.landscape}
                         alt={photo.alt}
-                        className="img-fluid"
+                        className={`img-fluid ${styles["word--img"]}`}
                       />
                     </a>{" "}
                   </div>
