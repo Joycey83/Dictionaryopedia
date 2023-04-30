@@ -6,9 +6,15 @@ const Footer = () => {
   return (
     <>
       <footer className={styles["footer--container"]}>
-        <ul className={styles["footer--icon"]}>
+        <ul className={styles["footer--icons"]}>
           {socialLinks.map((link) => {
-            return <SocialLinks key={link.id} />;
+            return (
+              <SocialLinks
+                key={link.id}
+                {...link}
+                itemClass={styles["footer--icon"]}
+              />
+            );
           })}
         </ul>
       </footer>

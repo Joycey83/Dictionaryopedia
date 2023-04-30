@@ -10,3 +10,8 @@
   border-radius: 30px;
   text-align: center;
 }
+
+.footer--icon {
+  font-size: 30px;
+  color: #ff4500;
+}
