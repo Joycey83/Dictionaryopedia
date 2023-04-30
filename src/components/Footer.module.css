@@ -4,15 +4,16 @@
   background: orange;
   color: #fff5ee;
   font-size: 16px;
-  max-width: 650px;
+  max-width: 600px;
   margin: 20px auto;
   padding: 10px 10px;
-  border-radius: 30px;
+  border-radius: 35px;
   text-align: center;
 }
 .footer--icons--container {
   display: flex;
   justify-content: center;
+  margin: 0.5rem 0;
 }
 .footer--icon {
   font-size: 30px;
@@ -26,8 +27,10 @@
 }
 
 .copyright {
+  font-size: 12px;
   text-transform: capitalize;
-  letter-spacing: 2px;
+  margin-top: 1rem;
+  letter-spacing: 3px;
 }
 
 .copyright--year {
