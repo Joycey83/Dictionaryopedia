@@ -43,6 +43,12 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
 =======================================
  */
 
+@media (max-width: 1100px) {
+  .footer--container {
+    background: none;
+  }
+}
+
 @media (max-width: 800px) {
   .footer--container {
     background: none;
