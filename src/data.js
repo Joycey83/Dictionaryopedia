@@ -6,8 +6,8 @@ export const socialLinks = [
   },
   {
     id: 2,
-    href: "https://github.com/Joycey83/Dictionaryopedia",
-    icon: "",
+    href: "https://www.linkedin.com/in/joyce-c-33199199/",
+    icon: "fa-brands fa-linkedin",
   },
   {
     id: 3,
