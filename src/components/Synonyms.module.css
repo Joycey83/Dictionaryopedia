@@ -22,3 +22,11 @@
 MEDIA QUERIES: MOBILE & TABLET DEVICES
 =======================================
  */
+
+@media (max-width: 360px) {
+  .hightlight {
+    font-size: 12px;
+    margin: 10px 12px;
+    padding: 5px 10px;
+  }
+}

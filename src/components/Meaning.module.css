@@ -28,3 +28,15 @@
 MEDIA QUERIES: MOBILE & TABLET DEVICES
 =======================================
  */
+
+@media (max-width: 360px) {
+  .meaning {
+    padding: 3rem;
+  }
+
+  .paragraph--definition {
+    font-size: 1rem;
+    line-height: 1;
+    padding: 8px;
+  }
+}
