@@ -17,6 +17,13 @@ const Footer = () => {
             );
           })}
         </ul>
+        <p className={styles.copyright}>
+          copyright &copy; Dictionaryopedia App
+          <span className={styles["copyright--year"]}>
+            {new Date().getFullYear()}
+          </span>{" "}
+          All rights reserved
+        </p>
       </footer>
     </>
   );

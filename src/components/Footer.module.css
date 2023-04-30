@@ -24,3 +24,12 @@
 .footer--icon:hover {
   color: aliceblue;
 }
+
+.copyright {
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
+.copyright--year {
+  margin-left: 0.5rem;
+}
