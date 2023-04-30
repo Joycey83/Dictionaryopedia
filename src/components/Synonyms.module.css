@@ -1,10 +1,14 @@
 .hightlight {
   display: inline-block;
+  color: aliceblue;
   padding: 10px 20px;
-  margin: 15px 15px;
-  font-size: 14px;
-  background-color: #f76e11;
+  margin: 15px 18px;
+  font-size: 18px;
+  background-color: #e25822;
+  border: 1px solid whitesmoke;
   border-radius: 22px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
   transition: all 200ms ease-in-out;
 }
 
