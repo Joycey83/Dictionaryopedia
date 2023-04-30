@@ -33,3 +33,9 @@ input:focus {
   font-size: 18px;
   letter-spacing: 2px;
 }
+
+@media (max-width: 360px) {
+  ::placeholder {
+    font-size: 12px;
+  }
+}
