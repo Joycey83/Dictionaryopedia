@@ -35,11 +35,28 @@ input:focus {
 }
 
 @media (max-width: 360px) {
+  input {
+    margin: 0 auto;
+    width: 105%;
+  }
   ::placeholder {
     font-size: 12px;
   }
 
   .words {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 320px) {
+  input {
+    width: 105%;
+  }
+  ::placeholder {
+    font-size: 10px;
+  }
+
+  .words {
+    font-size: 12px;
   }
 }

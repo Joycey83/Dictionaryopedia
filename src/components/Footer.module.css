@@ -45,7 +45,7 @@
   }
 
   .footer--icon {
-    font-size: 20px;
+    font-size: 22px;
     margin: 0 1rem;
   }
 
@@ -56,7 +56,11 @@
 
 @media (max-width: 320px) {
   .footer--icon {
-    font-size: 20px;
+    font-size: 22px;
     margin: 0 0.5rem;
+  }
+
+  .copyright {
+    font-size: 8px;
   }
 }
