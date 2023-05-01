@@ -9,12 +9,12 @@
   color: #ff4500;
   font-size: 2.5rem;
   text-transform: capitalize;
-  line-height: 1.2;
+  line-height: var(--line-height);
   letter-spacing: 2px;
 }
 
 .paragraph--definition {
-  font-family: "Rubik", sans-serif;
+  font-family: var(--ff-secondary);
   color: aliceblue;
   font-weight: 400;
   font-size: 1.2rem;
@@ -26,7 +26,7 @@
 .italic--definition {
   color: #ff4500;
   font-size: 0.9rem;
-  line-height: 1.2;
+  line-height: var(--line-height);
   transition: all 0.5s ease-in-out;
 }
 

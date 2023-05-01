@@ -19,6 +19,6 @@
   --text-shadow: 5px 6px 6px rgba(251, 79, 20, 0.4);
   --outer-border: 8px solid #fd5800;
   --inner-border: ;
-  --line-height: ;
-  --position: ;
+  --line-height: 1.2;
+  --position-object: relative;
 }

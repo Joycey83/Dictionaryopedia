@@ -1,6 +1,6 @@
 .audio--player {
   margin: 20px 0;
-  position: relative;
+  position: var(--position-object);
   right: 35px;
 }
 
@@ -17,7 +17,7 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
 
 @media (max-width: 414px) {
   .audio--players {
-    position: relative;
+    position: var(--position-object);
     right: 30px;
     width: 160px;
   }
@@ -32,7 +32,7 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
 
 @media (max-width: 390px) {
   .audio--players {
-    position: relative;
+    position: var(--position-object);
     right: 35px;
     width: 160px;
   }
@@ -47,7 +47,7 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
 
 @media (max-width: 360px) {
   .audio--players {
-    position: relative;
+    position: var(--position-object);
     right: 15px;
     width: 160px;
   }
@@ -62,7 +62,7 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
 
 @media (max-width: 320px) {
   .audio--players {
-    position: relative;
+    position: var(--position-object);
     right: 40px;
     width: 150px;
   }
