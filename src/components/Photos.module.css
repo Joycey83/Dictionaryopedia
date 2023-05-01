@@ -8,6 +8,9 @@
 }
 
 .word--img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  transform: scale(1.1);
 }
 
 /* 
