@@ -9,6 +9,12 @@
   font-size: 2.5rem;
 }
 
+/* 
+=======================================
+MEDIA QUERIES: MOBILE & TABLET DEVICES
+=======================================
+ */
+
 @media (max-width: 360px) {
   .audio--players {
     position: relative;
@@ -21,5 +27,18 @@
 
   .phonetic--text {
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .audio--players {
+    position: relative;
+    right: 40px;
+    width: 150px;
+  }
+
+  .phonetic--text {
+    position: relative;
+    right: 20px;
   }
 }
