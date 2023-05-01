@@ -15,9 +15,9 @@
   --ff-secondary: "Rubik", sans-serif;
   --spacing: ;
   --radius: ;
-  --outer-shadow: ;
-  --text-shadow: ;
-  --outer-border: ;
+  --outer-shadow: 14px 3px 26px rgba(255, 69, 0, 0.3);
+  --text-shadow: 5px 6px 6px rgba(251, 79, 20, 0.4);
+  --outer-border: 8px solid #fd5800;
   --inner-border: ;
   --line-height: ;
   --position: ;
