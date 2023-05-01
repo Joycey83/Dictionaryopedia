@@ -40,6 +40,14 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
     grid-template-columns: 1fr;
   }
 
+  .definition--heading {
+    font-size: 20px;
+    color: aliceblue;
+    text-transform: capitalize;
+    line-height: 1.2;
+    letter-spacing: 2px;
+  }
+
   .paragraph--definition {
     color: aliceblue;
   }

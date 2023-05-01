@@ -8,7 +8,9 @@ const Meaning = (props) => {
       <>
         <div className={styles.meaning}>
           <h4>
-            <strong>{props.meaning.partOfSpeech}</strong>
+            <strong className={styles["definition--heading"]}>
+              {props.meaning.partOfSpeech}
+            </strong>
           </h4>
 
           {props.meaning.definitions.map((definition, index) => {
