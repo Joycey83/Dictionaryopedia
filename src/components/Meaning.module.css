@@ -34,10 +34,15 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
 @media (max-width: 390px) {
   .meaning {
     position: relative;
-    background: none;
     right: 60px;
+    background: none;
+    padding: 0.5rem;
     display: grid;
     grid-template-columns: 1fr;
+  }
+
+  .meaning:hover {
+    background: none;
   }
 
   .definition--heading {

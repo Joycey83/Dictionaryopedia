@@ -31,6 +31,13 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
 =======================================
  */
 
+@media (max-width: 800px) {
+  .results--container {
+    position: relative;
+    left: 45px;
+  }
+}
+
 @media (max-width: 360px) {
   .definition--word {
     position: relative;
