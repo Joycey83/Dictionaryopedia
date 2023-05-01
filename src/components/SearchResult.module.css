@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   background-color: var(--orange-2);
+  border: 1px solid var(--white);
   border-radius: 25px;
   padding: 5rem;
   max-width: 500px;
