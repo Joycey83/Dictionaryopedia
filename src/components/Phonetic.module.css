@@ -1,7 +1,7 @@
 .audio--player {
   margin: 20px 0;
   position: var(--position-object);
-  right: 35px;
+  left: 25px;
 }
 
 .phonetic--text {
@@ -18,7 +18,7 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
 @media (max-width: 414px) {
   .audio--players {
     position: var(--position-object);
-    right: 30px;
+    left: -65px;
     width: 160px;
   }
   .audio--player {
@@ -33,7 +33,7 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
 @media (max-width: 390px) {
   .audio--players {
     position: var(--position-object);
-    right: 35px;
+    left: -90px;
     width: 160px;
   }
   .audio--player {
@@ -63,7 +63,7 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
 @media (max-width: 320px) {
   .audio--players {
     position: var(--position-object);
-    right: 40px;
+    left: -95px;
     width: 150px;
   }
 

@@ -53,7 +53,7 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
 
   .definition--word {
     position: var(--position-object);
-    right: 40px;
+    left: -10px;
     font-size: 1.5rem;
   }
 }
@@ -65,8 +65,8 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
   }
   .definition--word {
     position: var(--position-object);
-    right: 40px;
-    font-size: 1.5rem;
+    left: -40px;
+    font-size: 1.2rem;
   }
 }
 
@@ -74,7 +74,7 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
   .definition--word {
     position: var(--position-object);
     right: 40px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .results--container {
     margin: 20px auto;
