@@ -31,6 +31,33 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
 =======================================
  */
 
+@media (max-width: 414px) {
+  .meaning {
+    position: relative;
+    right: 60px;
+    background: none;
+    padding: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .meaning:hover {
+    background: none;
+  }
+
+  .definition--heading {
+    font-size: 20px;
+    color: #ff4500;
+    text-transform: capitalize;
+    line-height: 1.2;
+    letter-spacing: 2px;
+  }
+
+  .paragraph--definition {
+    color: aliceblue;
+  }
+}
+
 @media (max-width: 390px) {
   .meaning {
     position: relative;
