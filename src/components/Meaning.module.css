@@ -44,14 +44,14 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
   .meaning {
     position: relative;
     right: 60px;
-    background: none;
+    border: none;
     padding: 0.5rem;
     display: grid;
     grid-template-columns: 1fr;
   }
 
   .meaning:hover {
-    background: none;
+    border: none;
   }
 
   .definition--heading {
