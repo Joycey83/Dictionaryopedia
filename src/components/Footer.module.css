@@ -55,6 +55,12 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
   }
 }
 
+@media (max-width: 900px) {
+  .profile--logo {
+    width: 55px;
+  }
+}
+
 @media (max-width: 800px) {
   .footer--container {
     border: none;
