@@ -14,6 +14,7 @@ function App() {
             className={styles["dictionary--logo"]}
           />
         </div>
+        <h1 className={styles["main--heading"]}>Dictionaryopedia</h1>
         <Dictionaryopedia />
         <Footer />
       </div>

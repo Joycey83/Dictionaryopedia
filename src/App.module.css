@@ -6,6 +6,10 @@
   box-shadow: 14px 3px 26px rgba(255, 69, 0, 0.3);
 }
 
+.main--heading {
+  text-align: center;
+}
+
 .dictionary--logo {
   display: block;
   width: 170px;
