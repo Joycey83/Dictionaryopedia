@@ -17,6 +17,7 @@ const Footer = () => {
             );
           })}
         </ul>
+        <p>Project was bulit by Joyce Cheung</p>
         <p className={styles.copyright}>
           copyright &copy; Dictionaryopedia App
           <span className={styles["copyright--year"]}>
