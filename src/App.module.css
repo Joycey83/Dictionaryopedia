@@ -10,7 +10,7 @@
 
 .main--heading {
   text-shadow: var(--text-shadow);
-  color: #fb4f14;
+  color: var(--orange-1);
   font-size: 3.2rem;
   text-align: center;
   margin-bottom: 1.8rem;
