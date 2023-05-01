@@ -3,7 +3,7 @@
 }
 
 input {
-  font-family: "Rubik", sans-serif;
+  font-family: var(--ff-secondary);
   display: block;
   font-size: 18px;
   width: 100%;
@@ -19,7 +19,7 @@ input:focus {
 }
 
 ::placeholder {
-  font-family: "Bruno Ace", cursive;
+  font-family: var(--ff-primary);
   color: #000;
   text-align: center;
   font-size: 22px;
@@ -27,11 +27,11 @@ input:focus {
 }
 
 .words {
-  font-family: "Bruno Ace", cursive;
+  font-family: var(--ff-primary);
   margin-bottom: 20px;
   color: #fb4f14;
   font-size: 18px;
-  letter-spacing: 2px;
+  letter-spacing: var(--spacing);
 }
 
 /* 
