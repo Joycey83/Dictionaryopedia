@@ -32,9 +32,14 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
  */
 
 @media (max-width: 360px) {
+  .definition--word {
+    text-align: center;
+    font-size: 1.8rem;
+  }
   .results--container {
+    margin: 20px auto;
     position: relative;
-    left: -80px;
-    max-width: 400px;
+    left: 6px;
+    max-width: 350px;
   }
 }
