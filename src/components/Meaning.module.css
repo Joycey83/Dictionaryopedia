@@ -1,8 +1,7 @@
 .meaning {
-  border: 2px solid #ff4500;
+  border: var(--inner-border);
   border-radius: 25px;
   padding: 2rem;
-  transition: all 200ms ease-in-out;
 }
 
 .definition--heading {
@@ -10,7 +9,7 @@
   font-size: 2.5rem;
   text-transform: capitalize;
   line-height: var(--line-height);
-  letter-spacing: 2px;
+  letter-spacing: var(--spacing);
 }
 
 .paragraph--definition {
@@ -20,7 +19,7 @@
   font-size: 1.2rem;
   padding: 15px 0;
   line-height: 1.5;
-  letter-spacing: 2px;
+  letter-spacing: var(--spacing);
 }
 
 .italic--definition {

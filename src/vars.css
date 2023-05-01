@@ -14,11 +14,10 @@
   --ff-primary: "Bruno Ace", cursive;
   --ff-secondary: "Rubik", sans-serif;
   --spacing: 2px;
-  --radius: ;
   --outer-shadow: 14px 3px 26px rgba(255, 69, 0, 0.3);
   --text-shadow: 5px 6px 6px rgba(251, 79, 20, 0.4);
   --outer-border: 8px solid #fd5800;
-  --inner-border: ;
+  --inner-border: 2px solid #ff4500;
   --line-height: 1.2;
   --position-object: relative;
 }
