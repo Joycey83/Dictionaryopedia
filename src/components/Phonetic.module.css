@@ -68,7 +68,7 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
   }
 
   .phonetic--text {
-    position: relative;
+    position: var(--position-object);
     right: 20px;
   }
 }
