@@ -11,7 +11,7 @@ const Phonetic = (props) => {
           <ReactAudioPlayer
             src={props.phonetic.audio}
             className={styles["audio--players"]}
-            autoPlay
+            // autoPlay muted
             controls
           />{" "}
         </div>
