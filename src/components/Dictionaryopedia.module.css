@@ -7,15 +7,15 @@ input {
   display: block;
   font-size: 18px;
   width: 100%;
-  border: 2px solid orange;
+  border: 2px solid var(--orange-4);
   line-height: 1.5rem;
   padding: 0.7rem 1.5rem;
 }
 
 input:focus {
   outline: none;
-  background: #ffc87c;
-  border-color: #fb4f14;
+  background: var(--orange-3);
+  border-color: var(--orange-1);
 }
 
 ::placeholder {
@@ -29,7 +29,7 @@ input:focus {
 .words {
   font-family: var(--ff-primary);
   margin-bottom: 20px;
-  color: #fb4f14;
+  color: var(--orange-1);
   font-size: 18px;
   letter-spacing: var(--spacing);
 }

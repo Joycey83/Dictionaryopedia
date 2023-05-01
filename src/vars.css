@@ -5,10 +5,10 @@
  */
 
 :root {
-  --orange-1: orange;
+  --orange-1: #fb4f14;
   --orange-2: orange;
-  --orange-3: orange;
-  --orange-4: orange;
+  --orange-3: #ffc87c;
+  --orange-4: #ffa500;
 
   --white: aliceblue;
   --ff-primary: "Bruno Ace", cursive;
