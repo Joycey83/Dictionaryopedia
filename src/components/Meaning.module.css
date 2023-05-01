@@ -1,5 +1,5 @@
 .meaning {
-  background-color: #ffdead;
+  border: 2px solid #ff4500;
   border-radius: 25px;
   padding: 2rem;
   transition: all 200ms ease-in-out;
