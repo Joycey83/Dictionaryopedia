@@ -14,7 +14,7 @@ input {
 
 input:focus {
   outline: none;
-  background: var(--orange-3);
+  background: var(--orange-5);
   border-color: var(--orange-1);
 }
 

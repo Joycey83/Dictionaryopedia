@@ -1,6 +1,6 @@
 .word--img {
   margin: 1rem 1rem;
-  border: 2px solid #fd5800;
+  border: 2px solid var(--orange-3);
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   transition: all 200ms ease-in-out;
