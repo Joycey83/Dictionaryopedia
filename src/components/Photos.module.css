@@ -2,3 +2,15 @@
   margin: 1rem 1rem;
   border: 2px solid #fd5800;
 }
+
+/* 
+=======================================
+MEDIA QUERIES: MOBILE & TABLET DEVICES
+=======================================
+ */
+@media (max-width: 390px) {
+  .image--container {
+    position: relative;
+    right: 15px;
+  }
+}
