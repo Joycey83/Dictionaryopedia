@@ -5,10 +5,10 @@
   transition: all 200ms ease-in-out;
 }
 
-.meaning:hover {
-  background-color: #ffb347;
+/* .meaning:hover {
+  background-color: #e9692c;
   cursor: pointer;
-}
+} */
 
 .definition--heading {
   color: #ff4500;
@@ -32,6 +32,10 @@
   color: #ff4500;
   font-size: 0.9rem;
   line-height: 1.2;
+}
+
+.italic--definition:hover {
+  font-size: 1.2rem;
 }
 
 /* 
