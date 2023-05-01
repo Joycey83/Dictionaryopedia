@@ -1,6 +1,7 @@
 import styles from "../components/Footer.module.css";
 import SocialLinks from "./SocialLinks";
 import { socialLinks } from "../data";
+import profileLogo from "../images/joyce-logo-white.png";
 
 const Footer = () => {
   return (
@@ -17,7 +18,16 @@ const Footer = () => {
             );
           })}
         </ul>
-        <p>Project was bulit by Joyce Cheung</p>
+        <p>
+          Project was bulit by{" "}
+          <a href="https://github.com/Joycey83">
+            <img
+              src={profileLogo}
+              alt="personal Profile Logo"
+              className={styles["profile--logo"]}
+            />
+          </a>
+        </p>
         <p className={styles.copyright}>
           copyright &copy; Dictionaryopedia App
           <span className={styles["copyright--year"]}>
