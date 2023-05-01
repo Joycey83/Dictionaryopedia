@@ -25,12 +25,6 @@
   text-transform: capitalize;
 }
 
-.italic--definition {
-  font-size: 1.2rem;
-  font-style: italic;
-  font-size: medium;
-}
-
 /* 
 =======================================
 MEDIA QUERIES: MOBILE & TABLET DEVICES
