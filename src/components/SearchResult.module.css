@@ -38,6 +38,18 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
   }
 }
 
+@media (max-width: 390px) {
+  .results--container {
+    position: relative;
+    left: 8px;
+  }
+  .definition--word {
+    position: relative;
+    right: 40px;
+    font-size: 1.5rem;
+  }
+}
+
 @media (max-width: 360px) {
   .definition--word {
     position: relative;

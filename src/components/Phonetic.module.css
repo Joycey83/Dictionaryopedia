@@ -15,6 +15,24 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
 =======================================
  */
 
+@media (max-width: 414px) {
+}
+
+@media (max-width: 390px) {
+  .audio--players {
+    position: relative;
+    right: 35px;
+    width: 160px;
+  }
+  .audio--player {
+    margin: 0;
+  }
+
+  .phonetic--text {
+    font-size: 1rem;
+  }
+}
+
 @media (max-width: 360px) {
   .audio--players {
     position: relative;
