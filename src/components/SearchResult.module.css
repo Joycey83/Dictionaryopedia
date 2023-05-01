@@ -1,5 +1,5 @@
 .results--container {
-  position: relative;
+  position: var(--position-object);
   left: 220px;
   display: flex;
   flex-direction: column;
@@ -18,7 +18,7 @@
 }
 
 .definition--word {
-  font-family: "Bruno Ace", cursive;
+  font-family: var(--ff-primary);
   text-align: center;
   font-size: 3.5rem;
   /* letter-spacing: 2px; */
@@ -32,26 +32,26 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
  */
 @media (max-width: 1100px) {
   .results--container {
-    position: relative;
+    position: var(--position-object);
     left: 110px;
   }
 }
 
 @media (max-width: 900px) {
   .results--container {
-    position: relative;
+    position: var(--position-object);
     left: 55px;
   }
 }
 
 @media (max-width: 414px) {
   .results--container {
-    position: relative;
+    position: var(--position-object);
     left: 8px;
   }
 
   .definition--word {
-    position: relative;
+    position: var(--position-object);
     right: 40px;
     font-size: 1.5rem;
   }
@@ -59,11 +59,11 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
 
 @media (max-width: 390px) {
   .results--container {
-    position: relative;
+    position: var(--position-object);
     left: 8px;
   }
   .definition--word {
-    position: relative;
+    position: var(--position-object);
     right: 40px;
     font-size: 1.5rem;
   }
@@ -71,13 +71,13 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
 
 @media (max-width: 360px) {
   .definition--word {
-    position: relative;
+    position: var(--position-object);
     right: 40px;
     font-size: 1.5rem;
   }
   .results--container {
     margin: 20px auto;
-    position: relative;
+    position: var(--position-object);
     left: 6px;
     max-width: 360px;
   }
