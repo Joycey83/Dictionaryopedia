@@ -17,7 +17,7 @@
 }
 .footer--icon {
   font-size: 30px;
-  color: #ff4500;
+  color: var(--orange-2);
   margin: 0 2rem;
   transition: all 150ms ease-in-out;
 }
