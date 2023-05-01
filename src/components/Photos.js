@@ -8,7 +8,10 @@ const Photo = (props) => {
           {props.photos.map(function (photo, index) {
             if (index < 9) {
               return (
-                <div className="col-lg-4 col-md-4" key={index}>
+                <div
+                  className={`col-lg-4 col-md-4 ${styles["image--container"]}`}
+                  key={index}
+                >
                   <a href={photo.src.original} target="_blank" rel="noreferrer">
                     <img
                       src={photo.src.landscape}
