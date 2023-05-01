@@ -33,6 +33,10 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
   .app--container {
     margin: 2rem 0.5rem;
   }
+
+  .main--heading {
+    font-size: 1.5rem;
+  }
 }
 
 @media (max-width: 414px) {
