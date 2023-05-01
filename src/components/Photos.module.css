@@ -1,6 +1,13 @@
 .word--img {
   margin: 1rem 1rem;
   border: 2px solid #fd5800;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  transition: all 200ms ease-in-out;
+  transition: transform 0.5s ease-in-out;
+}
+
+.word--img:hover {
 }
 
 /* 
