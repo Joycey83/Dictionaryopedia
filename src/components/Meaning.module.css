@@ -39,6 +39,10 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
     display: grid;
     grid-template-columns: 1fr;
   }
+
+  .paragraph--definition {
+    color: aliceblue;
+  }
 }
 
 @media (max-width: 360px) {
