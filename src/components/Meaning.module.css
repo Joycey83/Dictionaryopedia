@@ -51,7 +51,7 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
   }
 
   .meaning:hover {
-    border: none;
+    background: none;
   }
 
   .definition--heading {
