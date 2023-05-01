@@ -33,7 +33,8 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
 
 @media (max-width: 360px) {
   .definition--word {
-    text-align: center;
+    position: relative;
+    right: 22px;
     font-size: 1.8rem;
   }
   .results--container {
