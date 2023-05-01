@@ -1,5 +1,5 @@
 .footer--container {
-  position: relative;
+  position: var(--position-object);
   top: 40px;
   border: 2px solid #fd5800;
   color: #fff5ee;
@@ -34,7 +34,7 @@
 
 .copyright {
   font-size: 12px;
-  text-transform: capitalize;
+  text-transform: var(--text-style);
   margin-top: 1rem;
   letter-spacing: 3px;
 }

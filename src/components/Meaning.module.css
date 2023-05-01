@@ -7,7 +7,7 @@
 .definition--heading {
   color: #ff4500;
   font-size: 2.5rem;
-  text-transform: capitalize;
+  text-transform: var(--text-style);
   line-height: var(--line-height);
   letter-spacing: var(--spacing);
 }

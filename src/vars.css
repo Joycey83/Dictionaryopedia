@@ -20,4 +20,5 @@
   --inner-border: 2px solid #ff4500;
   --line-height: 1.2;
   --position-object: relative;
+  --text-style: capitalize;
 }
