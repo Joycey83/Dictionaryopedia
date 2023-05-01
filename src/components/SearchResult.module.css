@@ -1,13 +1,13 @@
 .results--container {
   position: relative;
-  left: 255px;
+  left: 220px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: #ff4500;
   border-radius: 25px;
   padding: 5rem;
-  max-width: 400px;
+  max-width: 500px;
   margin: 2rem 2rem;
 }
 
@@ -21,7 +21,7 @@
   font-family: "Bruno Ace", cursive;
   text-align: center;
   font-size: 3.5rem;
-  letter-spacing: 2px;
+  /* letter-spacing: 2px; */
   text-transform: capitalize;
 }
 
@@ -34,13 +34,13 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
 @media (max-width: 360px) {
   .definition--word {
     position: relative;
-    right: 22px;
-    font-size: 1.8rem;
+    right: 40px;
+    font-size: 1.5rem;
   }
   .results--container {
     margin: 20px auto;
     position: relative;
     left: 6px;
-    max-width: 350px;
+    max-width: 360px;
   }
 }
