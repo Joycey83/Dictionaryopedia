@@ -20,7 +20,11 @@ const Footer = () => {
         </ul>
         <p>
           Project was bulit by{" "}
-          <a href="https://github.com/Joycey83">
+          <a
+            href="https://github.com/Joycey83"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               src={profileLogo}
               alt="personal Profile Logo"
