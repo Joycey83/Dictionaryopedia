@@ -29,7 +29,7 @@
 }
 
 .footer--icon:hover {
-  color: aliceblue;
+  color: var(--white);
 }
 
 .copyright {
