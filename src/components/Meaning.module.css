@@ -32,10 +32,12 @@
   color: #ff4500;
   font-size: 0.9rem;
   line-height: 1.2;
+  transition: all 1s ease-in-out;
 }
 
 .italic--definition:hover {
   font-size: 1.2rem;
+  cursor: pointer;
 }
 
 /* 
