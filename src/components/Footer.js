@@ -18,7 +18,7 @@ const Footer = () => {
             );
           })}
         </ul>
-        <p>
+        <p className={styles["profile--container"]}>
           Project was bulit by{" "}
           <a
             href="https://github.com/Joycey83"

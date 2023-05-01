@@ -21,7 +21,9 @@
   margin: 0 2rem;
   transition: all 150ms ease-in-out;
 }
-
+.profile--container {
+  margin-top: 12px;
+}
 .profile--logo {
   width: 75px;
 }
