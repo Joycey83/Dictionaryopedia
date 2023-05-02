@@ -22,10 +22,12 @@
   transition: all 150ms ease-in-out;
 }
 .profile--container {
+  font-size: 0.8rem;
   margin-top: 12px;
+  letter-spacing: var(--spacing);
 }
 .profile--logo {
-  width: 75px;
+  width: 70px;
 }
 
 .footer--icon:hover {
@@ -71,6 +73,10 @@ MEDIA QUERIES: MOBILE & TABLET DEVICES
   .footer--icon {
     font-size: 22px;
     margin: 0 0.5rem;
+  }
+
+  .profile--container {
+    font-size: 0.6rem;
   }
 }
 
