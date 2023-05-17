@@ -18,9 +18,9 @@ My approach for designing this dictionary application was to create it so that i
 
 ## Features
 
--Search for word definitions and synonyms.
--Play audio pronunciations for the searched word.
--Show corresponding images for the searched word.
+- Search for word definitions and synonyms.
+- Play audio pronunciations for the searched word.
+- Show corresponding images for the searched word.
 
 ## Running Locally
 
@@ -32,6 +32,6 @@ My approach for designing this dictionary application was to create it so that i
 
 ## Usage
 
--Visit https://dictionaryopedia.netlify.app/
--Enter a word in the search bar.
--Press the "Enter" to search for the word.
+- Visit https://dictionaryopedia.netlify.app/
+- Enter a word in the search bar.
+- Press the "Enter" to search for the word.
