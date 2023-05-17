@@ -15,3 +15,5 @@ My approach for designing this dictionary application was to create it so that i
 ## Mobile Responsive Design
 
 ![mobile mock up.](/src/images/mobile-mockup.png)
+
+## Features
