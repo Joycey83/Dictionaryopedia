@@ -31,3 +31,7 @@ My approach for designing this dictionary application was to create it so that i
 5. Open your browser and navigate to http://localhost:3000
 
 ## Usage
+
+-Visit https://dictionaryopedia.netlify.app/
+-Enter a word in the search bar.
+-Press the "Enter" to search for the word.
