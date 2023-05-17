@@ -12,4 +12,6 @@ My approach for designing this dictionary application was to create it so that i
 
 ![page mock up.](/src/images/dictionary-mockup.png)
 
+## Mobile Responsive Design
+
 ![mobile mock up.](/src/images/mobile-mockup.png)
