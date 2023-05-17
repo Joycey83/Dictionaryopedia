@@ -1,5 +1,7 @@
 # Dictionaryopedia
 
+## Introduction
+
 Created a Dictionary App for the Shecodes React Add-on Project
 
 # Getting Started with Create React App
