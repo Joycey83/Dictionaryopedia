@@ -29,3 +29,5 @@ My approach for designing this dictionary application was to create it so that i
 3. Install dependencies with npm install
 4. Start the development server with npm start
 5. Open your browser and navigate to http://localhost:3000
+
+## Usage
