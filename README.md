@@ -34,7 +34,7 @@ My approach for designing this dictionary application was to create it so that i
 
 ## Languages used
 
-## Running Locally
+# Running Locally
 
 1. Fork this repository
 2. Clone your forked repository to your local machine
