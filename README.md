@@ -35,3 +35,5 @@ My approach for designing this dictionary application was to create it so that i
 - Visit https://dictionaryopedia.netlify.app/
 - Enter a word in the search bar.
 - Press the "Enter" to search for the word.
+- View the word's definitions, synonyms, and images.
+- Click on the speaker icon to hear the word's audio pronunciation (if available).
