@@ -43,3 +43,5 @@ My approach for designing this dictionary application was to create it so that i
 5. Open your browser and navigate to http://localhost:3000
 
 # Deployment
+
+## Deploy a project to Netlify
