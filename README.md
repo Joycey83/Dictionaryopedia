@@ -51,6 +51,7 @@ This site was deployed to Netlify. Plese follow these steps to deploy your site:
 One way to get started deploying on Netlify is to use a Deploy to Netlify button to add a site.
 
 1.Select the Deploy to Netlify button.
+
 ![netlify button.](/src/images/deploy-button.png)
 
 You will get directed to the Netlify app to create a new site. You should find the following page, asking you to connect to GitHub.
