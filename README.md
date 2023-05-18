@@ -62,8 +62,14 @@ You will get directed to the Netlify app to create a new site. You should find t
 
 You will be redirected to the Site overview page where you can check for the deploy in the Production deploys list.
 
+![netlify deployment.](/src/images/github-2.png)
+
 You can also check that the repository has been cloned properly by selecting GitHub to navigate to your new repository on GitHub.
 
+![netlify deployment2.](/src/images/github-1.png)
+
 4.Once the deploy has finished building, you should get a production URL where you can access the website.
+
+![netlify production url.](/src/images/github-3.png)
 
 5.You can choose to customize the URL by changing the site’s name in the Netlify UI at Site settings > Site details > Site information.
