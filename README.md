@@ -30,10 +30,6 @@ My approach for designing this dictionary application was to create it so that i
 - View the word's definitions, synonyms, and images.
 - Click on the audio play button to hear the word's audio pronunciation (if available).
 
-# Technologies Used
-
-## Languages used
-
 # Running Locally
 
 1. Fork this repository
