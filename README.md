@@ -33,9 +33,12 @@ My approach for designing this dictionary application was to create it so that i
 # Frameworks & Programs Used
 
 -Google Fonts
+
 -Fontawesome
+
 -Bootstrap
--Free dictionary API
+
+-[View Free dictionary API](https://dictionaryapi.dev/)
 
 # Running Locally
 
