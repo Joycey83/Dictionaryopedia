@@ -36,9 +36,9 @@ My approach for designing this dictionary application was to create it so that i
 
 -Google Fonts Two: [Rubik](https://fonts.google.com/specimen/Rubik?query=rubik)
 
--Fontawesome
+-[Fontawesome](https://fontawesome.com/)
 
--Bootstrap
+-[Bootstrap](https://getbootstrap.com/)
 
 -[View Free dictionary API](https://dictionaryapi.dev/)
 
