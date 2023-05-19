@@ -32,7 +32,9 @@ My approach for designing this dictionary application was to create it so that i
 
 # Frameworks & Programs Used
 
--Google Fonts
+-Google Fonts One: [Bruno Ace](https://fonts.google.com/specimen/Bruno+Ace+SC?query=bruno+ace)
+
+-Google Fonts Two: [Rubik](https://fonts.google.com/specimen/Rubik?query=rubik)
 
 -Fontawesome
 
