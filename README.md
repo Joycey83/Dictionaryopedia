@@ -8,7 +8,7 @@ Dictionaryopdia is user-friendly dictionary app designed to help users look up t
 
 [View the live project here.](https://dictionaryopedia.netlify.app/)
 
-My approach for designing this dictionary application was to create it so that it is not only accessible to view on desktop but it is also mobile responsive. The applicaion is also accessible through a range of different devices.
+My approach for designing this dictionary application was to create it so that it is not only accessible to view on desktop but it is also mobile responsive. The application is also accessible through a range of different devices.
 
 ![page mock up.](/src/images/dictionary-mockup.png)
 
