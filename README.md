@@ -1,6 +1,6 @@
 # Dictionaryopedia - Dictionary Web Application
 
-The Dictionary Application was created for the Shecodes React Add-on Project
+The Dictionary Application Project was created for the Shecodes React Add-on course
 
 ## Introduction
 
